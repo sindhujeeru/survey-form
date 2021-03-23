@@ -1,3 +1,37 @@
 #title {
+    background-color: gainsboro;
+    
+    text-align:center ;
+}
+#description {
+    text-align: center;
+}
+#survey-form {
+    border: 2px solid black;
+    box-shadow: 5px 5p  gray;
+    padding-left: 10px;
+    padding-bottom: 5px;
+
+}
+.form-container {
+    display: inline-block;
+    margin-left:  35%;
+    
+}
+#name-label,  #name {
+    margin-top: 10px;
+    
+}
+#button {
     background-color: blue;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 23px;
+
+
+}
+
+#button:hover {
+
 }

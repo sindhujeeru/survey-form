@@ -1,12 +1,16 @@
 <html>
     <head>
         <title>Microverse</title>
+        <link rel=stylesheet type="text/css" href="/style.css" >
+
     </head>
+
     <body>
         <h1 id="title">Student-survey Form</h1>
         <p id="description">
           This is form is for students to give feedback on their teachers      
         </p>
+        <div class="form-container">
         <form id="survey-form">
             <label id="name-label">Name</label>
             <input id="name" type="text" placeholder="Enter your Name">
@@ -52,8 +56,8 @@
             <input type="checkbox" id="interaction" name="interaction3" value="Patient">
             <label for="interaction3"> He is patient enough in clearing the doubts</label>
             <br><br>
-            <input type="submit" value="Submit">
+            <input id="button" type="submit" value="Submit">
         </form>     
-        <h2> Thank You!!</h2>
+        </div>
     </body>
 </html>
